@@ -42,7 +42,7 @@ def parse_args():
 def presetup():
     home = str(Path.home())
     if os.path.exists('terraform') is False:
-        print("[!] Terraform executable is not present. The file can be downloaded from here https://releases.hashicorp.com/terraform/0.12.10/terraform_0.12.10_linux_amd64.zip")
+        print("[!] Terraform executable is not present. The file can be downloaded from here https://releases.hashicorp.com/terraform/0.13.5/terraform_0.13.5_linux_amd64.zip")
         print("[!] Exiting...")
         sys.exit(1)
     if os.path.exists(home + '/.aws/credentials') is False:
